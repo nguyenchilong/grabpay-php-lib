@@ -1,15 +1,15 @@
 <?php
 /**
  *
- * @Project: aceprint
+ * @Project: payment
  * @Filename: GrabPay.php
  * @Author: longnc <nguyenchilong90@gmail.com>
- * @Created Date: 12/7/20 11:15 AM
+ * @Created Date: 12/7/19 11:15 AM
  *
- * @Description: Text description here
+ * @Description: main class for GrabPay for extension and custom in sub-class
  */
 
-namespace App\Libraries\GrabPay;
+namespace GrabPay;
 
 
 abstract class GrabPay

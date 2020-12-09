@@ -1,15 +1,14 @@
 <?php
 /**
  *
- * @Project: aceprint
+ * @Project: payment
  * @Filename: Tokenization.php
  * @Author: longnc <nguyenchilong90@gmail.com>
- * @Created Date: 12/7/20 11:13 AM
+ * @Created Date: 12/7/19 11:13 AM
  *
- * @Description: Text description here
  */
 
-namespace App\Libraries\GrabPay;
+namespace GrabPay;
 
 
 class Tokenization extends GrabPay
@@ -41,7 +40,7 @@ class Tokenization extends GrabPay
 	 * @param string $accessToken OAuth access token
 	 * @param string $txId order ID
 	 * @param string $groupTxId partner transaction ID
-	 * @param int $amount ​Transaction amount as integer
+	 * @param int $amount Transaction amount as integer
 	 * @param string $description description of the charge (optional)
 	 *
 	 * @return object

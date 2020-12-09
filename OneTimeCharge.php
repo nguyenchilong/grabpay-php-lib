@@ -1,15 +1,15 @@
 <?php
 /**
  *
- * @Project: aceprint
+ * @Project: payment
  * @Filename: OneTimeCharge.php
  * @Author: longnc <nguyenchilong90@gmail.com>
- * @Created Date: 12/7/20 11:12 AM
+ * @Created Date: 12/7/19 11:12 AM
  *
- * @Description: Text description here
+ * @Description: The class for one-time charge
  */
 
-namespace App\Libraries\GrabPay;
+namespace GrabPay;
 
 
 class OneTimeCharge extends GrabPay
@@ -31,7 +31,7 @@ class OneTimeCharge extends GrabPay
 	 *
 	 * @param string $txId order ID
 	 * @param string $groupTxId partner transaction ID
-	 * @param int $amount ​Transaction amount as integer
+	 * @param int $amount Transaction amount as integer
 	 * @param string $description description of the charge (optional)
 	 *
 	 * @return object

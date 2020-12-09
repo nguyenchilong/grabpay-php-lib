@@ -1,15 +1,15 @@
 <?php
 /**
  *
- * @Project: aceprint
+ * @Project: payment
  * @Filename: Pos.php
  * @Author: longnc <nguyenchilong90@gmail.com>
- * @Created Date: 12/7/20 11:13 AM
+ * @Created Date: 12/7/19 11:13 AM
  *
- * @Description: Text description here
+ * @Description: The class for POS payment method
  */
 
-namespace App\Libraries\GrabPay;
+namespace GrabPay;
 
 
 class Pos extends GrabPay
@@ -145,7 +145,7 @@ class Pos extends GrabPay
 	 *
 	 * @param string $txID order ID
 	 * @param string $origTxID Original order ID
-	 * @param int $amount ​Transaction amount as integer
+	 * @param int $amount Transaction amount as integer
 	 *
 	 * @return object
 	 */
